@@ -1,7 +1,7 @@
 ﻿using DevIO.Business.Models;
 using System.Linq.Expressions;
 
-namespace DevIO.Business.Interfaces
+namespace DevIO.Business.Interfaces.Repositories
 {
     //Definindo que para utilizar IRepository, obrigatóriamente a classe tem que ser filha de Entity
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity
